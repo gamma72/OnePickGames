@@ -58,16 +58,19 @@
   <ItemGroup>
     <Compile Include="Assets\Script\LightMove.cs" />
     <Compile Include="Assets\Script\LightController.cs" />
+    <Compile Include="Assets\Script\TorchLightGet.cs" />
     <Compile Include="Assets\BrokenVector\UltimateDungeonPack\Scripts\LightImprove.cs" />
     <Compile Include="Assets\Script\Lightflicker.cs" />
     <Compile Include="Assets\BrokenVector\UltimateDungeonPack\Scenes\Demo\FPControls\Scripts\MouseCamLook.cs" />
+    <Compile Include="Assets\Script\EnemyLightMove.cs" />
+    <Compile Include="Assets\Script\TrapController.cs" />
     <Compile Include="Assets\BrokenVector\UltimateDungeonPack\Scenes\Demo\FPControls\Scripts\CharacterController.cs" />
     <Compile Include="Assets\_Flashlight PRO\_Assets\scripts\Flashlight_PRO.cs" />
-    <Compile Include="Assets\Script\EnemyLightMove.cs" />
-    <Compile Include="Assets\Script\TorchLightGet.cs" />
-    <Compile Include="Assets\Script\TrapController.cs" />
     <Compile Include="Assets\Script\Item.cs" />
     <Compile Include="Assets\Script\LightOn.cs" />
+    <Compile Include="Assets\Script\Destroy.cs" />
+    <Compile Include="Assets\Script\PlayerLight.cs" />
+    <Compile Include="Assets\Script\WallUp.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

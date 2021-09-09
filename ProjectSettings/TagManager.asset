@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - Wall
   - LightCollider
+  - Items
   layers:
   - Default
   - TransparentFX
