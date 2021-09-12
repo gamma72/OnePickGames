@@ -231,6 +231,7 @@ GameObject:
   - component: {fileID: 615769296}
   - component: {fileID: 615769295}
   - component: {fileID: 615769299}
+  - component: {fileID: 615769301}
   - component: {fileID: 615769300}
   m_Layer: 0
   m_Name: Player
@@ -327,7 +328,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 615769294}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 445e49492d28cba4ea48694b2763e5fc, type: 3}
   m_Name: 
@@ -339,6 +340,7 @@ MonoBehaviour:
   gravity: 20
   cameraRange: 10
   lookDown: 0
+  playerState: 0
 --- !u!54 &615769300
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -355,6 +357,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &615769301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615769294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42238bb312096a44094d2004911d6592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 7
+  jumpSpeed: 12
+  lookSpeed: 1.5
+  lookYLimit: 2.5
+  gravity: 20
+  cameraRange: 10
+  cameraSpeed: 1.5
+  lookDown: 0
+  testX: 0
+  testY: 0
+  playerState: 0
 --- !u!1 &948977058
 GameObject:
   m_ObjectHideFlags: 0

@@ -17,6 +17,18 @@ public class PlayerController2D : MonoBehaviour
     CharacterController characterController;
     GameObject mainCamera;
 
+    public enum State
+    {
+        IDLE,
+        WALK,
+        JUMP,
+        DJUMP,
+        SLIDE,
+        SIT,
+    }
+
+    public State playerState = State.IDLE;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,10 +43,8 @@ public class PlayerController2D : MonoBehaviour
         float xpos = Input.GetAxis("Horizontal") * speed;
         float ypos = Input.GetAxis("Vertical");
         float movementDirectionY = movePos.y;
+
         
-
-
-
         if (ypos < 0 && characterController.isGrounded)
         {
             xpos = 0;
@@ -76,7 +86,6 @@ public class PlayerController2D : MonoBehaviour
         }
         else
         {
-            
             if(ypos > 0 && !GetSpeed())
             {
                 cameraTarget = transform.position + new Vector3(cameraRange, lookYLimit*2, 0);
@@ -100,5 +109,83 @@ public class PlayerController2D : MonoBehaviour
         lastPos = transform.position;
 
         return moveSpeed == 0 ? false : true;
+    }
+
+    public void ChangeState(State state)
+    {
+
+        switch (state)
+        {
+            case State.IDLE:
+                SetIDLE();
+                break;
+            case State.WALK:
+                SetWALK();
+                break;
+            case State.JUMP:
+                SetJUMP();
+                break;
+            case State.DJUMP:
+                SetDJUMP();
+                break;
+            case State.SLIDE:
+                SetSLIDE();
+                break;
+            case State.SIT:
+                SetSIT();
+                break;
+        }
+
+        playerState = state;
+    }
+
+    void IDLE()
+    {
+
+    }
+    void WALK()
+    {
+
+    }
+    void JUMP()
+    {
+
+    }
+    void DJUMP()
+    {
+
+    }
+    void SLIDE()
+    {
+
+    }
+    void SIT()
+    {
+
+    }
+
+    void SetIDLE()
+    {
+
+    }
+    void SetWALK()
+    {
+
+    }
+    void SetJUMP()
+    {
+
+    }
+    void SetDJUMP()
+    {
+
+    }
+    void SetSLIDE()
+    {
+
+    }
+    void SetSIT()
+    {
+
     }
 }
