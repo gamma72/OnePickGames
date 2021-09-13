@@ -15,11 +15,11 @@ D:/OnePickGamesFile/OnePickGames-PuzzleMove
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62191
+51923
 Successfully changed project path to: D:/OnePickGamesFile/OnePickGames-PuzzleMove
 D:/OnePickGamesFile/OnePickGames-PuzzleMove
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 16.08 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.86 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,94 +35,102 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001392 seconds.
+Registered in 0.001904 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 17.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.368 seconds
+- Completed reload, in  1.675 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000426 seconds.
+Registered in 0.000795 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.599 seconds
+- Completed reload, in  0.757 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1121 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.4 MB.
-System memory in use after: 57.5 MB.
+System memory in use after: 57.4 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1564.
-Total: 1.431900 ms (FindLiveObjects: 0.116100 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.214500 ms  DeleteObjects: 0.066300 ms)
+Total: 2.510000 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.060200 ms MarkObjects: 2.082500 ms  DeleteObjects: 0.139400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Puzzle.cs
-  artifactKey: Guid(fb51c34dd748aac44883bb485192803d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Puzzle.cs using Guid(fb51c34dd748aac44883bb485192803d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97f3917801f99ceab48789501362669') in 0.017403 seconds
-  Import took 0.018789 seconds .
+  path: Assets/Scripts/2DView/PlayerController2D.cs
+  artifactKey: Guid(445e49492d28cba4ea48694b2763e5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/2DView/PlayerController2D.cs using Guid(445e49492d28cba4ea48694b2763e5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec1ae5fac14b651d83bcea44b4be45e') in 0.019654 seconds
+  Import took 0.021807 seconds .
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 35.1 MB.
 System memory in use after: 35.2 MB.
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1564.
-Total: 1.634500 ms (FindLiveObjects: 0.103800 ms CreateObjectMapping: 0.029600 ms MarkObjects: 1.456800 ms  DeleteObjects: 0.043200 ms)
+Total: 2.559800 ms (FindLiveObjects: 0.265700 ms CreateObjectMapping: 0.088000 ms MarkObjects: 2.130800 ms  DeleteObjects: 0.073700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.788221 seconds.
-  path: Assets/Scripts/Puzzle.cs
-  artifactKey: Guid(fb51c34dd748aac44883bb485192803d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Puzzle.cs using Guid(fb51c34dd748aac44883bb485192803d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b84eab681256cd206657c2027d2e17') in 0.001419 seconds
-  Import took 0.002895 seconds .
+  Time since last request: 8.427682 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(f58dc9b7d149e814aba4d093ab268227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(f58dc9b7d149e814aba4d093ab268227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefb2b8362955c3a55efd5d990317fdb') in 0.001854 seconds
+  Import took 0.004083 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000432 seconds.
+Registered in 0.000533 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.569 seconds
+- Completed reload, in  0.741 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.4 MB.
+System memory in use before: 57.3 MB.
 System memory in use after: 57.4 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1567.
-Total: 1.209100 ms (FindLiveObjects: 0.111600 ms CreateObjectMapping: 0.030700 ms MarkObjects: 1.019500 ms  DeleteObjects: 0.045800 ms)
+Total: 1.945200 ms (FindLiveObjects: 0.163000 ms CreateObjectMapping: 0.040900 ms MarkObjects: 1.666400 ms  DeleteObjects: 0.072300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 246.030161 seconds.
+  path: Assets/Scripts/2DView/PlayerController2D.cs
+  artifactKey: Guid(445e49492d28cba4ea48694b2763e5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/2DView/PlayerController2D.cs using Guid(445e49492d28cba4ea48694b2763e5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c894fe95726033861ff9092d0c3c07') in 0.004812 seconds
+  Import took 0.007306 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000473 seconds.
+Registered in 0.001091 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.549 seconds
+- Completed reload, in  0.698 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -131,62 +139,6 @@ System memory in use before: 57.4 MB.
 System memory in use after: 57.4 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1570.
-Total: 1.219900 ms (FindLiveObjects: 0.103200 ms CreateObjectMapping: 0.025200 ms MarkObjects: 1.045200 ms  DeleteObjects: 0.044800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1016.181406 seconds.
-  path: Assets/Scripts/PuzzleEscape.cs
-  artifactKey: Guid(3bb2f02e12f605f4aa99e1319b0fb2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PuzzleEscape.cs using Guid(3bb2f02e12f605f4aa99e1319b0fb2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31e384e734f671241e08b22f55a9c17') in 0.004074 seconds
-  Import took 0.005999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000727 seconds.
-  path: Assets/Scripts/PuzzleEscape.cs
-  artifactKey: Guid(3bb2f02e12f605f4aa99e1319b0fb2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PuzzleEscape.cs using Guid(3bb2f02e12f605f4aa99e1319b0fb2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31e384e734f671241e08b22f55a9c17') in 0.001352 seconds
-  Import took 0.002916 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000458 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.548 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.4 MB.
-System memory in use after: 57.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1573.
-Total: 1.315800 ms (FindLiveObjects: 0.149400 ms CreateObjectMapping: 0.034700 ms MarkObjects: 1.084700 ms  DeleteObjects: 0.046000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000459 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.546 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.4 MB.
-System memory in use after: 57.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1576.
-Total: 1.527000 ms (FindLiveObjects: 0.130000 ms CreateObjectMapping: 0.024900 ms MarkObjects: 1.313100 ms  DeleteObjects: 0.057900 ms)
+Total: 2.984700 ms (FindLiveObjects: 0.284200 ms CreateObjectMapping: 0.062500 ms MarkObjects: 2.570500 ms  DeleteObjects: 0.065500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
