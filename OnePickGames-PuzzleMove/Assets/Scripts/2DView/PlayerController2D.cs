@@ -121,7 +121,7 @@ public class PlayerController2D : MonoBehaviour
         }
         if (puzzle.puzzleOn) // 퍼즐 입장 상태
         {
-            mainCamera.transform.position = Vector3.Lerp(mainCamera.transform.position, new Vector3(5, -4, 38), lookSpeed * Time.deltaTime);
+            mainCamera.transform.position = Vector3.Lerp(mainCamera.transform.position, new Vector3(-8, 5, 12), lookSpeed * Time.deltaTime);
         }
         else if (puzzle.puzzleOn == false)
         {

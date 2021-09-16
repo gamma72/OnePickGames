@@ -57,11 +57,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\2DView\PlayerController2D.cs" />
-    <Compile Include="Assets\Scripts\GroundOn.cs" />
-    <Compile Include="Assets\Scripts\Puzzle.cs" />
-    <Compile Include="Assets\Scripts\Interaction.cs" />
+    <Compile Include="Assets\Scripts\Puzzles\GroundOn.cs" />
+    <Compile Include="Assets\Scripts\Puzzles\ScreenToPointRay.cs" />
+    <Compile Include="Assets\Scripts\Puzzles\Puzzle.cs" />
+    <Compile Include="Assets\Scripts\Puzzles\Interaction.cs" />
     <Compile Include="Assets\Scripts\1View\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\PuzzleEscape.cs" />
+    <Compile Include="Assets\Scripts\Puzzles\PuzzleEscape.cs" />
+    <Compile Include="Assets\Scripts\TileMaps\GenerateMaps.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Puzzle
   - Interaction
+  - a
+  - b
+  - c
   layers:
   - Default
   - TransparentFX
