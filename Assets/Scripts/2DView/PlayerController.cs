@@ -10,6 +10,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     float cameraRange, cameraSpeed;
 
+    [SerializeField]
+    Transform spawnPoint;
+
+
+    public bool resetPos = false;
+    public bool isMove;
+
     public bool lookDown;
     Vector3 cameraTarget;
     Vector3 movePos;
@@ -37,6 +44,11 @@ public class PlayerController : MonoBehaviour
     {
         characterController = gameObject.GetComponent<CharacterController>();
         mainCamera = GameObject.Find("Main Camera");
+    }
+
+    private void FixedUpdate()
+    {
+        isMove = GetSpeed();
     }
 
     // Update is called once per frame
@@ -116,18 +128,15 @@ public class PlayerController : MonoBehaviour
                 UPVIEW();
                 break;
         }
-
+        
         characterController.Move(movePos * Time.deltaTime);
         movePos.y -= gravity * Time.deltaTime;
         mainCamera.transform.position = Vector3.Lerp(mainCamera.transform.position, cameraTarget, lookSpeed * Time.deltaTime * cameraSpeed);
-    }
 
-    public bool GetSpeed()
-    {
-        float moveSpeed = Vector3.Distance(transform.position, lastPos);
-        lastPos = transform.position;
-
-        return moveSpeed == 0 ? false : true;
+        if (resetPos)
+        {
+            ResetPos();
+        }
     }
 
     public void ChangeState(State state)
@@ -206,5 +215,20 @@ public class PlayerController : MonoBehaviour
     void SetUPVIEW()
     {
 
+    }
+
+    public void ResetPos()
+    {
+        transform.GetComponent<CharacterController>().enabled = false;
+        transform.position = spawnPoint.position;
+        transform.GetComponent<CharacterController>().enabled = true;
+        resetPos = false;
+    }
+    public bool GetSpeed()
+    {
+        float speed = (((transform.position - lastPos).magnitude) / Time.deltaTime);
+        lastPos = transform.position;
+
+        return speed == 0 ? false : true;
     }
 }

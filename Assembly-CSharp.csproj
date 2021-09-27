@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{DD38AD82-A6B5-F6CE-7D07-2DCDD89D91B1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -57,8 +58,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\2DView\PlayerController2D.cs" />
-    <Compile Include="Assets\Scripts\1View\PlayerController1V.cs" />
+    <Compile Include="Assets\Scripts\1st Map\BoxBreake.cs" />
+    <Compile Include="Assets\Scripts\2DView\OnControllerHit.cs" />
+    <Compile Include="Assets\Scripts\1st Map\PositionReSet.cs" />
+    <Compile Include="Assets\Scripts\1st Map\TestGrab.cs" />
+    <Compile Include="Assets\Scripts\1st Map\ColorChange.cs" />
     <Compile Include="Assets\Scripts\2DView\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\1View\PlayerController1V.cs" />
+    <Compile Include="Assets\Scripts\1st Map\keyOpen.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
