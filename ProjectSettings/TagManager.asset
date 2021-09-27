@@ -4,13 +4,19 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Flicker
-  - Fire
-  - Ground
+  - Puzzle
+  - Interaction
+  - Light
+  - Enemy
+  - XMove
+  - YMove
+  - RotationBox
   - Wall
-  - LightCollider
-  - MoveObj
-  - Key
+  - UpBt
+  - MySton
+  - Trap
+  - SpawnPoint
+  - SpawnReset
   layers:
   - Default
   - TransparentFX
@@ -20,9 +26,9 @@ TagManager:
   - UI
   - 
   - 
-  - LightObstacles
-  - LightSoucre
-  - AmbientLight
+  - 
+  - 
+  - 
   - 
   - 
   - 
