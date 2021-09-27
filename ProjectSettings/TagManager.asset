@@ -4,8 +4,19 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - MoveObj
-  - Key
+  - Puzzle
+  - Interaction
+  - Light
+  - Enemy
+  - XMove
+  - YMove
+  - RotationBox
+  - Wall
+  - UpBt
+  - MySton
+  - Trap
+  - SpawnPoint
+  - SpawnReset
   layers:
   - Default
   - TransparentFX
