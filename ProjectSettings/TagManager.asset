@@ -9,6 +9,8 @@ TagManager:
   - Ground
   - Wall
   - LightCollider
+  - MoveObj
+  - Key
   layers:
   - Default
   - TransparentFX
