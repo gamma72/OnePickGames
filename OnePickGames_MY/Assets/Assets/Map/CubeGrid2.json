@@ -1,0 +1,767 @@
+{
+    "_type": 0,
+    "_name": "CubeGrid",
+    "_size_cell": 1.0,
+    "_gap": 1.0,
+    "_map": [
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Default.prefab",
+            "_index": {
+                "x": 2,
+                "y": 0,
+                "z": 3
+            },
+            "_localposition": {
+                "x": 2.0,
+                "y": 0.0,
+                "z": 3.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Default.prefab",
+            "_index": {
+                "x": 3,
+                "y": 0,
+                "z": 2
+            },
+            "_localposition": {
+                "x": 3.0,
+                "y": 0.0,
+                "z": 2.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Default.prefab",
+            "_index": {
+                "x": 4,
+                "y": 0,
+                "z": 4
+            },
+            "_localposition": {
+                "x": 4.0,
+                "y": 0.0,
+                "z": 4.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Grass.prefab",
+            "_index": {
+                "x": 4,
+                "y": 0,
+                "z": 6
+            },
+            "_localposition": {
+                "x": 4.0,
+                "y": 0.0,
+                "z": 6.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Grass.prefab",
+            "_index": {
+                "x": 5,
+                "y": 0,
+                "z": 8
+            },
+            "_localposition": {
+                "x": 5.0,
+                "y": 0.0,
+                "z": 8.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Grass.prefab",
+            "_index": {
+                "x": 5,
+                "y": 0,
+                "z": 9
+            },
+            "_localposition": {
+                "x": 5.0,
+                "y": 0.0,
+                "z": 9.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Grass.prefab",
+            "_index": {
+                "x": 5,
+                "y": 1,
+                "z": 9
+            },
+            "_localposition": {
+                "x": 5.0,
+                "y": 1.0,
+                "z": 9.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Grass.prefab",
+            "_index": {
+                "x": 5,
+                "y": 0,
+                "z": 10
+            },
+            "_localposition": {
+                "x": 5.0,
+                "y": 0.0,
+                "z": 10.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Grass.prefab",
+            "_index": {
+                "x": 4,
+                "y": 0,
+                "z": 11
+            },
+            "_localposition": {
+                "x": 4.0,
+                "y": 0.0,
+                "z": 11.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": 8,
+                "y": 0,
+                "z": 9
+            },
+            "_localposition": {
+                "x": 8.0,
+                "y": 0.0,
+                "z": 9.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": 8,
+                "y": 0,
+                "z": 10
+            },
+            "_localposition": {
+                "x": 8.0,
+                "y": 0.0,
+                "z": 10.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": 8,
+                "y": 0,
+                "z": 11
+            },
+            "_localposition": {
+                "x": 8.0,
+                "y": 0.0,
+                "z": 11.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": 8,
+                "y": 0,
+                "z": 12
+            },
+            "_localposition": {
+                "x": 8.0,
+                "y": 0.0,
+                "z": 12.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": 9,
+                "y": 0,
+                "z": 12
+            },
+            "_localposition": {
+                "x": 9.0,
+                "y": 0.0,
+                "z": 12.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": 8,
+                "y": 0,
+                "z": 13
+            },
+            "_localposition": {
+                "x": 8.0,
+                "y": 0.0,
+                "z": 13.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": 3,
+                "y": 0,
+                "z": 14
+            },
+            "_localposition": {
+                "x": 3.0,
+                "y": 0.0,
+                "z": 14.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": 6,
+                "y": 0,
+                "z": 15
+            },
+            "_localposition": {
+                "x": 6.0,
+                "y": 0.0,
+                "z": 15.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": 4,
+                "y": 0,
+                "z": 16
+            },
+            "_localposition": {
+                "x": 4.0,
+                "y": 0.0,
+                "z": 16.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": 3,
+                "y": 0,
+                "z": 16
+            },
+            "_localposition": {
+                "x": 3.0,
+                "y": 0.0,
+                "z": 16.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": 1,
+                "y": 0,
+                "z": 16
+            },
+            "_localposition": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 16.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": -1,
+                "y": 0,
+                "z": 15
+            },
+            "_localposition": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": 15.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": -1,
+                "y": 1,
+                "z": 15
+            },
+            "_localposition": {
+                "x": -1.0,
+                "y": 1.0,
+                "z": 15.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": -1,
+                "y": 0,
+                "z": 13
+            },
+            "_localposition": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": 13.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": 0,
+                "y": 0,
+                "z": 13
+            },
+            "_localposition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 13.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": -1,
+                "y": 0,
+                "z": 12
+            },
+            "_localposition": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": 12.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": -3,
+                "y": 0,
+                "z": 11
+            },
+            "_localposition": {
+                "x": -3.0,
+                "y": 0.0,
+                "z": 11.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": -2,
+                "y": 0,
+                "z": 11
+            },
+            "_localposition": {
+                "x": -2.0,
+                "y": 0.0,
+                "z": 11.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": -3,
+                "y": 0,
+                "z": 8
+            },
+            "_localposition": {
+                "x": -3.0,
+                "y": 0.0,
+                "z": 8.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": -3,
+                "y": 0,
+                "z": 9
+            },
+            "_localposition": {
+                "x": -3.0,
+                "y": 0.0,
+                "z": 9.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": -2,
+                "y": 0,
+                "z": 8
+            },
+            "_localposition": {
+                "x": -2.0,
+                "y": 0.0,
+                "z": 8.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": -5,
+                "y": 0,
+                "z": 5
+            },
+            "_localposition": {
+                "x": -5.0,
+                "y": 0.0,
+                "z": 5.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": -4,
+                "y": 0,
+                "z": 5
+            },
+            "_localposition": {
+                "x": -4.0,
+                "y": 0.0,
+                "z": 5.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "_pathPrefab": "Assets/MapTileGridCreator/Pallets/Cubes/Water.prefab",
+            "_index": {
+                "x": -4,
+                "y": 0,
+                "z": 6
+            },
+            "_localposition": {
+                "x": -4.0,
+                "y": 0.0,
+                "z": 6.0
+            },
+            "_localrotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_localscale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    ]
+}
