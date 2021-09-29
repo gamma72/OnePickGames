@@ -11,7 +11,7 @@ public class ColorChange : MonoBehaviour
     List<Material> colors;
 
     GameObject player;
-    PlayerController playerC;
+    PlayerController2D playerC;
 
     MeshRenderer nowMesh;
     int nowNum = 0;
@@ -20,7 +20,7 @@ public class ColorChange : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        playerC = GameObject.Find("Player").GetComponent<PlayerController>();
+        playerC = GameObject.Find("Player").GetComponent<PlayerController2D>();
         nowMesh = transform.GetChild(0).GetComponent<MeshRenderer>();
         nowMesh.material = colors[nowNum];
     }

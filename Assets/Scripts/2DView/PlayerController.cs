@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour
         {
             if (characterController.isGrounded)
             {
-                if(xpos == 0)
+                if (xpos == 0)
                 {
                     ChangeState(State.IDLE);
                 }
@@ -83,7 +83,7 @@ public class PlayerController : MonoBehaviour
         }
         movePos = (forward * xpos);
 
-        
+
 
         if (playerState != State.SIT || playerState != State.JUMP)
         {
@@ -92,7 +92,7 @@ public class PlayerController : MonoBehaviour
                 ChangeState(State.UPVIEW);
             }
         }
-        
+
         if (Input.GetButtonDown("Jump") && playerState == State.JUMP)
         {
             ChangeState(State.DJUMP);
@@ -106,7 +106,7 @@ public class PlayerController : MonoBehaviour
         {
             ChangeState(State.JUMP);
         }
-        
+
         switch (playerState)
         {
             case State.IDLE:
@@ -128,7 +128,7 @@ public class PlayerController : MonoBehaviour
                 UPVIEW();
                 break;
         }
-        
+
         characterController.Move(movePos * Time.deltaTime);
         movePos.y -= gravity * Time.deltaTime;
         mainCamera.transform.position = Vector3.Lerp(mainCamera.transform.position, cameraTarget, lookSpeed * Time.deltaTime * cameraSpeed);

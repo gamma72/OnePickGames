@@ -12,11 +12,13 @@ TagManager:
   - YMove
   - RotationBox
   - Wall
-  - UpBt
   - MySton
   - Trap
+  - Key
+  - MoveObj
   - SpawnPoint
-  - SpawnReset
+  - ClearDoor
+  - GameClearManager
   layers:
   - Default
   - TransparentFX

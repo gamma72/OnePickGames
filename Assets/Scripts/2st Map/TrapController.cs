@@ -5,9 +5,10 @@ using UnityEngine;
 public class TrapController : MonoBehaviour
 {
     public bool trapOnOff = true;
-    public Vector3 trapDown = new Vector3();
-    public Vector3 trapUp = new Vector3();
-    public float trapCnt, trapCntPlus;
+    public Vector3 trapMove = new Vector3();
+    public Vector3 trapResetPos = new Vector3();
+    public float trapCnt;
+    public float trapPosMaxCnt;
     void Start()
     {
 
@@ -28,23 +29,15 @@ public class TrapController : MonoBehaviour
                 break;
         }
     }
-    void TrapMovedeltaTime()
-    {
-        // 현재위치값에서 천천히 이동함
-        transform.position = transform.position + trapDown * Time.deltaTime;
-    }
-    void TrapOn()
-    {
-        //현재위치의 + 0.1f
-        transform.position = transform.position + trapUp;
-    }
     public void TrapMove_X()
     {
         //트랩 자동화
         if (trapOnOff == true)
         {
             TrapMovedeltaTime();
-            if (transform.position.x <= trapCntPlus)
+
+            //일정거리 이상 넘어가는걸 방지
+            if (transform.position.x <= trapPosMaxCnt)
             {
                 trapOnOff = false;
             }
@@ -52,6 +45,8 @@ public class TrapController : MonoBehaviour
         else if (trapOnOff == false)
         {
             TrapOn();
+
+            //트랩의 위치를 변경해 트리거와 충돌을 
             if (transform.position.x > trapCnt)
             {
                 trapOnOff = true;
@@ -72,15 +67,25 @@ public class TrapController : MonoBehaviour
         else if (trapOnOff == false)
         {
             TrapOn();
-            if (transform.position.y > trapCntPlus)
+            if (transform.position.y > trapPosMaxCnt)
             {
                 trapOnOff = true;
             }
         }
     }
-    public void TrapRotation()
+    void TrapRotation()
     {
         //회전값을 움직이는 함수 Z축 으로 회전하게되있음
-        transform.localEulerAngles = transform.localEulerAngles + trapDown * Time.deltaTime;
+        transform.localEulerAngles = transform.localEulerAngles + trapMove * Time.deltaTime;
+    }
+    void TrapMovedeltaTime()
+    {
+        // 현재위치값에서 천천히 이동함
+        transform.position = transform.position + trapMove * Time.deltaTime;
+    }
+    void TrapOn()
+    {
+        //현재위치의 + 0.1f
+        transform.position = transform.position + trapResetPos;
     }
 }

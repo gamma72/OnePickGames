@@ -17,12 +17,9 @@ public class PlayerController2D : MonoBehaviour
     public bool isMove;
 
     //스크립트 추가
-    Puzzle puzzle;
-    bool playerPosChange = false;
-    bool jumps = false;
+    public bool jumps = false;
     float curTime = 0;
     public float coolTime;
-    Transform playerPos;
 
     public bool lookDown;
     Vector3 cameraTarget;
@@ -48,10 +45,12 @@ public class PlayerController2D : MonoBehaviour
 
     void Start()
     {
-        playerPos = GameObject.Find("Player").GetComponent<Transform>();
         characterController = gameObject.GetComponent<CharacterController>();
         mainCamera = GameObject.Find("Main Camera");
-        puzzle = GameObject.Find("Puzzle").GetComponent<Puzzle>();
+    }
+    private void FixedUpdate()
+    {
+        isMove = GetSpeed();
     }
 
     void Update()
@@ -132,7 +131,7 @@ public class PlayerController2D : MonoBehaviour
         //Spring Jump
         if (jumps)
         {
-            movePos.y = 12;
+            movePos.y = 11;
             curTime += Time.deltaTime;
             if (curTime > coolTime)
             {
@@ -156,26 +155,9 @@ public class PlayerController2D : MonoBehaviour
         characterController.Move(movePos * Time.deltaTime);
         mainCamera.transform.position = Vector3.Lerp(mainCamera.transform.position, cameraTarget, lookSpeed * Time.deltaTime);
         movePos.y -= gravity * Time.deltaTime;
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.gameObject.tag == "SpawnReset")
+        if (resetPos)
         {
-            playerPosChange = false;
-            puzzle.nextPuzzle = false;
-        }
-
-        //Next Stage
-        if(other.gameObject.tag == "SpawnPoint")
-        {
-            playerPosChange = true;
-        }
-        
-        //Spring Jump
-        if (other.gameObject.tag == "Trap")
-        {
-            jumps = true;
+            ResetPos();
         }
     }
 
@@ -265,9 +247,9 @@ public class PlayerController2D : MonoBehaviour
     }
     public bool GetSpeed()
     {
-        float moveSpeed = Vector3.Distance(transform.position, lastPos);
+        float speed = (((transform.position - lastPos).magnitude) / Time.deltaTime);
         lastPos = transform.position;
 
-        return moveSpeed == 0 ? false : true;
+        return speed == 0 ? false : true;
     }
 }

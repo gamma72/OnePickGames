@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public GameObject door;
     public bool enemyMove = false;
     public Vector3 enemyPos = new Vector3(0, 0, 0);
     void Start()
@@ -11,22 +12,23 @@ public class Enemy : MonoBehaviour
         
     }
 
-    
+
     void Update()
     {
         if (enemyMove)
         {
             transform.position = transform.position + enemyPos * Time.deltaTime;
             Destroy(gameObject, 3);
+            Destroy(door, 2);
         }
     }
     void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Light")
+        if (other.gameObject.tag == "Light")
         {
             enemyMove = true;
         }
-        if(other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
             //플레이어 hp -1
         }

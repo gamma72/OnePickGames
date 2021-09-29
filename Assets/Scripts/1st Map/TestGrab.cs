@@ -13,25 +13,23 @@ public class TestGrab : MonoBehaviour
 
     bool isGrab;
 
-    // Start is called before the first frame update
     void Start()
     {
         player = GameObject.Find("Player");
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         float xpos = Input.GetAxis("Horizontal");
 
         if(xpos > 0)
         {
-            transform.position = player.transform.position + new Vector3(0,0, 1.5f);
+            transform.position = player.transform.position + new Vector3(0,.25f, 1.5f);
         }
         if(xpos < 0)
         {
-            transform.position = player.transform.position - new Vector3(0, 0, 1.5f);
+            transform.position = player.transform.position - new Vector3(0, -.25f, 1.5f);
         }
 
         if (Input.GetKeyDown(KeyCode.F))
@@ -49,10 +47,10 @@ public class TestGrab : MonoBehaviour
         if (isGrab && obj != null)
         {
             testRig.MovePosition(transform.position);
+            testRig.useGravity = true;
             testRig.isKinematic = true;
         }
-
-        if(!isGrab && obj != null)
+        if (!isGrab && obj != null)
         {
             testRig.isKinematic = false;
         }
@@ -67,10 +65,9 @@ public class TestGrab : MonoBehaviour
         if(other.tag == "MoveObj")
         {
             obj = other.gameObject;
-            testRig = obj.GetComponent<Rigidbody>();            
+            testRig = obj.GetComponent<Rigidbody>();
         }
     }
-
     private void OnTriggerExit(Collider other)
     {
         if (isGrab)
