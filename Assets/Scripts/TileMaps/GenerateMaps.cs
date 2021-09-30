@@ -5,19 +5,19 @@ using System;
 
 public class GenerateMaps : MonoBehaviour
 {
-    public Transform tilePrefab; //Å¸ÀÏ ÇÁ·¹ÆÕ
-    public Vector2 mapSize; // ¸Ê »çÀÌÁî
+    public Transform tilePrefab; //Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    public Vector2 mapSize; // ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
     [Range(0, 1)]
-    public float outlinePercent; // ¾Æ¿ô¶óÀÎ ÆÛ¼¾Æ®
+    public float outlinePercent; // ï¿½Æ¿ï¿½ï¿½ï¿½ï¿½ ï¿½Û¼ï¿½Æ®
 
     public void GenerateMap()
     {
         string holderName = "Generated Map";
 
-        if (transform.FindChild(holderName))
+        if (transform.Find(holderName))
         {
-            DestroyImmediate(transform.FindChild(holderName).gameObject);
+            DestroyImmediate(transform.Find(holderName).gameObject);
         }
 
         Transform mapHolder = new GameObject(holderName).transform;
@@ -31,7 +31,7 @@ public class GenerateMaps : MonoBehaviour
                 Transform newTile = Instantiate(tilePrefab, tilePosition, Quaternion.Euler(Vector3.right * 0));
                 newTile.parent = mapHolder;
 
-                //Å©±â Á¶Á¤
+                //Å©ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
                 newTile.localScale = Vector3.one * (1 - outlinePercent);
             }
         }
