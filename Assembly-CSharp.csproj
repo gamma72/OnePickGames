@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\1st Map\PositionReSet.cs" />
     <Compile Include="Assets\Scripts\1st Map\TestGrab.cs" />
     <Compile Include="Assets\Scripts\2st Map\Enemy.cs" />
+    <Compile Include="Assets\Scripts\DonDestroyOnLoad.cs" />
     <Compile Include="Assets\Scripts\2st Map\ScreenToPointRay.cs" />
     <Compile Include="Assets\Scripts\2DView\OnControllerHit.cs" />
     <Compile Include="Assets\Scripts\2st Map\Lever.cs" />
@@ -84,7 +85,13 @@
     <Compile Include="Assets\Scripts\2st Map\Interaction.cs" />
     <Compile Include="Assets\Scripts\2st Map\PuzzleEscape.cs" />
     <Compile Include="Assets\Scripts\3stMap\Script\MovingObstacle_Y.cs" />
-    <Compile Include="Assets\Scripts\DonDestroyOnLoad.cs" />
+    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDParticlesDestroyer.cs" />
+    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDDispenser.cs" />
+    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDRotator.cs" />
+    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Demo\Scripts\WNDDisabler.cs" />
+    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDMoover.cs" />
+    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDParticlesSpawner.cs" />
+    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDPrefabVariator.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
