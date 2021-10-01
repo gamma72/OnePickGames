@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\2st Map\Interaction.cs" />
     <Compile Include="Assets\Scripts\2st Map\PuzzleEscape.cs" />
     <Compile Include="Assets\Scripts\3stMap\Script\MovingObstacle_Y.cs" />
+    <Compile Include="Assets\Scripts\DonDestroyOnLoad.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
