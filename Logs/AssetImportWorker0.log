@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1237; Version 2009; 64bit' Language: 'ko' Physical Memory: 16239 MB
+OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'ko' Physical Memory: 8081 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,366 +11,125 @@ C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/OnePickGamesFile
+C:/Users/home/Documents/github/OnePickGames
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55790
-Successfully changed project path to: D:/OnePickGamesFile
-D:/OnePickGamesFile
+65154
+Successfully changed project path to: C:/Users/home/Documents/github/OnePickGames
+C:/Users/home/Documents/github/OnePickGames
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.70 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 92.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/OnePickGamesFile/Assets
+[Subsystems] Discovering subsystems at path C:/Users/home/Documents/github/OnePickGames/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics (ID=0x102)
     Vendor:   
-    VRAM:     2988 MB
-    Driver:   27.21.14.6627
+    VRAM:     128 MB
+    Driver:   9.17.10.4459
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001401 seconds.
+Registered in 0.003990 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 37.75 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 102.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.222 seconds
+- Completed reload, in  1.950 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000831 seconds.
+Registered in 0.037659 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 38.70 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 108.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.716 seconds
+- Completed reload, in  1.921 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2454 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.2 MB.
-System memory in use after: 118.3 MB.
+Unloading 2437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.7 MB.
+System memory in use after: 115.8 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2900.
-Total: 1.833000 ms (FindLiveObjects: 0.246100 ms CreateObjectMapping: 0.105000 ms MarkObjects: 1.391100 ms  DeleteObjects: 0.089600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/HYPEPOLY - Battle Royale Show
-  artifactKey: Guid(a4b29ab0e4792574f966506332f424c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show using Guid(a4b29ab0e4792574f966506332f424c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa2c4b96799148cf08c8812df875373') in 0.003852 seconds
-  Import took 0.007109 seconds .
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2884.
+Total: 2.930700 ms (FindLiveObjects: 0.340400 ms CreateObjectMapping: 0.117400 ms MarkObjects: 2.338000 ms  DeleteObjects: 0.133100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Animations
-  artifactKey: Guid(3b05cf893416a244bac033ae5bf23830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Animations using Guid(3b05cf893416a244bac033ae5bf23830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3dc9ce89349a79feeac6b743529c96') in 0.001044 seconds
-  Import took 0.004117 seconds .
+  path: Assets/Scenes/3st map.unity
+  artifactKey: Guid(f334e9b4eb1c5eb4f9315f93b6c16daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3st map.unity using Guid(f334e9b4eb1c5eb4f9315f93b6c16daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a7ebadf2b60c09929a04ea0fe4adec') in 0.029805 seconds
+  Import took 0.037736 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.389152 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes
-  artifactKey: Guid(4d99f999aea09f2409320d5f52393195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes using Guid(4d99f999aea09f2409320d5f52393195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f72fb8a1bbd8bcb56248145eef8ae16') in 0.001103 seconds
-  Import took 0.004904 seconds .
+  Time since last request: 0.001026 seconds.
+  path: Assets/Scenes/2st map.unity
+  artifactKey: Guid(c48f467cdaed6d846b3ea50f9f90337a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2st map.unity using Guid(c48f467cdaed6d846b3ea50f9f90337a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2c17d7f81c94d260fda737b1c920a0') in 0.025880 seconds
+  Import took 0.033543 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.866644 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/All Models.unity
-  artifactKey: Guid(58fa148b0f6461140bcb25e8cc8651ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/All Models.unity using Guid(58fa148b0f6461140bcb25e8cc8651ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6d12adc34731ae804b64f4c21c29b3') in 0.274318 seconds
-  Import took 0.278202 seconds .
+  Time since last request: 0.000272 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(c26ec2346daa605459c0dfbc269be391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(c26ec2346daa605459c0dfbc269be391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fea3ba7af3cf1e5efcb3dd03851dbd') in 0.017333 seconds
+  Import took 0.024500 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.154831 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 1.unity
-  artifactKey: Guid(82b8bcc107db9ef46871404ce41b1f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 1.unity using Guid(82b8bcc107db9ef46871404ce41b1f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d33226d25976029023bb05f8d0dda8') in 0.001512 seconds
-  Import took 0.004947 seconds .
+  Time since last request: 0.000256 seconds.
+  path: Assets/Scenes/1st map.unity
+  artifactKey: Guid(2b6a42907710fa34d9062c495b3181db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/1st map.unity using Guid(2b6a42907710fa34d9062c495b3181db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad1dfd34f89a80f64be389b5a74d352') in 0.010636 seconds
+  Import took 0.015683 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.900298 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 2.unity
-  artifactKey: Guid(3d77839d38f3b0a40aad4d2ce24f3618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 2.unity using Guid(3d77839d38f3b0a40aad4d2ce24f3618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e71b055916e60cf93e4b3db9a37352a') in 0.001425 seconds
-  Import took 0.004730 seconds .
+  Time since last request: 0.000221 seconds.
+  path: Assets/Scenes/3STmaP.unity
+  artifactKey: Guid(c1f97b91363c62c4495671bd724d3b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3STmaP.unity using Guid(c1f97b91363c62c4495671bd724d3b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43454287e359dc1e5c468196ffc7610d') in 0.011153 seconds
+  Import took 0.019360 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001218 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 2.unity
-  artifactKey: Guid(3d77839d38f3b0a40aad4d2ce24f3618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 2.unity using Guid(3d77839d38f3b0a40aad4d2ce24f3618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e71b055916e60cf93e4b3db9a37352a') in 0.001180 seconds
-  Import took 0.004280 seconds .
+  Time since last request: 0.233663 seconds.
+  path: Assets/Scenes/4st GameClear.unity
+  artifactKey: Guid(afdfd89477c631b45b46589451071fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/4st GameClear.unity using Guid(afdfd89477c631b45b46589451071fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9cf9a918246726c55847b8a5fa6249') in 0.023942 seconds
+  Import took 0.030368 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.607797 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 3.unity
-  artifactKey: Guid(1a2a70b4dfc83d44d9ef81609ddc941f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 3.unity using Guid(1a2a70b4dfc83d44d9ef81609ddc941f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68858f8b2ffa6ea532d3842c1da67f0') in 0.001308 seconds
-  Import took 0.004682 seconds .
+  Time since last request: 0.010760 seconds.
+  path: Assets/Scenes/4st GameClear.unity
+  artifactKey: Guid(afdfd89477c631b45b46589451071fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/4st GameClear.unity using Guid(afdfd89477c631b45b46589451071fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9cf9a918246726c55847b8a5fa6249') in 0.003255 seconds
+  Import took 0.012287 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000792 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 3.unity
-  artifactKey: Guid(1a2a70b4dfc83d44d9ef81609ddc941f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 3.unity using Guid(1a2a70b4dfc83d44d9ef81609ddc941f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68858f8b2ffa6ea532d3842c1da67f0') in 0.001266 seconds
-  Import took 0.004631 seconds .
-
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 65.0 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2900.
-Total: 2.748400 ms (FindLiveObjects: 0.277700 ms CreateObjectMapping: 0.115100 ms MarkObjects: 2.289000 ms  DeleteObjects: 0.065600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 156.420959 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Materials
-  artifactKey: Guid(c0b655094e8f7534e8a396dcfaa1f9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Materials using Guid(c0b655094e8f7534e8a396dcfaa1f9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810ad18db5e9ce1ad8e48135fbe222e1') in 0.001068 seconds
-  Import took 0.004638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000671 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Materials
-  artifactKey: Guid(c0b655094e8f7534e8a396dcfaa1f9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Materials using Guid(c0b655094e8f7534e8a396dcfaa1f9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810ad18db5e9ce1ad8e48135fbe222e1') in 0.001020 seconds
-  Import took 0.004188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.700135 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Editor
-  artifactKey: Guid(bbf140d61cbcc7948b760e34a1125749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Editor using Guid(bbf140d61cbcc7948b760e34a1125749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654051deea95ef608085c47ad26eb6c2') in 0.001249 seconds
-  Import took 0.004546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001314 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Editor
-  artifactKey: Guid(bbf140d61cbcc7948b760e34a1125749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Editor using Guid(bbf140d61cbcc7948b760e34a1125749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654051deea95ef608085c47ad26eb6c2') in 0.001005 seconds
-  Import took 0.004195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.206003 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Models
-  artifactKey: Guid(4dd471e3855cb2a4ab4a5635149908fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Models using Guid(4dd471e3855cb2a4ab4a5635149908fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33584e34912e00ef6647ece0e45bbbf') in 0.001119 seconds
-  Import took 0.004538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001283 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Models
-  artifactKey: Guid(4dd471e3855cb2a4ab4a5635149908fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Models using Guid(4dd471e3855cb2a4ab4a5635149908fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33584e34912e00ef6647ece0e45bbbf') in 0.000929 seconds
-  Import took 0.003956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.239073 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Prefabs
-  artifactKey: Guid(7e77c36fc674cad4e973b59aec69f18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Prefabs using Guid(7e77c36fc674cad4e973b59aec69f18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4153705e9af280c4ca754eefb1c66a5f') in 0.001251 seconds
-  Import took 0.004932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.217668 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Scripts
-  artifactKey: Guid(e0a639bcbf3a61e428fd030ffdb49ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Scripts using Guid(e0a639bcbf3a61e428fd030ffdb49ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0851b7530c3a1018258b70cde9aeecec') in 0.001053 seconds
-  Import took 0.004312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001008 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Scripts
-  artifactKey: Guid(e0a639bcbf3a61e428fd030ffdb49ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Scripts using Guid(e0a639bcbf3a61e428fd030ffdb49ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0851b7530c3a1018258b70cde9aeecec') in 0.000976 seconds
-  Import took 0.004093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.641048 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Scripts/WNDMoover.cs
-  artifactKey: Guid(a92673b725b70db4089840173c269bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Scripts/WNDMoover.cs using Guid(a92673b725b70db4089840173c269bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d8496457a8538e01325f65818b13a9') in 0.019401 seconds
-  Import took 0.022394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.258954 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Models/HYPEPOLY BATTLE ROYALE SHOW.fbx
-  artifactKey: Guid(e5909e6c07df7474dbbae1a47853e8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Models/HYPEPOLY BATTLE ROYALE SHOW.fbx using Guid(e5909e6c07df7474dbbae1a47853e8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebfc8425488ae10282a8a708534ca17') in 2.684059 seconds
-  Import took 2.691900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.452470 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 2.unity
-  artifactKey: Guid(3d77839d38f3b0a40aad4d2ce24f3618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 2.unity using Guid(3d77839d38f3b0a40aad4d2ce24f3618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca33841d90e4beed55e9b05808bc8c08') in 0.003700 seconds
-  Import took 0.007207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.801957 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 1.unity
-  artifactKey: Guid(82b8bcc107db9ef46871404ce41b1f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 1.unity using Guid(82b8bcc107db9ef46871404ce41b1f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7ffd4fc5e72e4a39522b69b4acda55') in 0.001540 seconds
-  Import took 0.005451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 1.unity
-  artifactKey: Guid(82b8bcc107db9ef46871404ce41b1f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 1.unity using Guid(82b8bcc107db9ef46871404ce41b1f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7ffd4fc5e72e4a39522b69b4acda55') in 0.001234 seconds
-  Import took 0.004392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.254050 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 3.unity
-  artifactKey: Guid(1a2a70b4dfc83d44d9ef81609ddc941f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 3.unity using Guid(1a2a70b4dfc83d44d9ef81609ddc941f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4b2daba8342f96f590e6b80cdefd1b') in 0.001358 seconds
-  Import took 0.004957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000734 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 3.unity
-  artifactKey: Guid(1a2a70b4dfc83d44d9ef81609ddc941f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 3.unity using Guid(1a2a70b4dfc83d44d9ef81609ddc941f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4b2daba8342f96f590e6b80cdefd1b') in 0.001235 seconds
-  Import took 0.004620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.464736 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/All Models.unity
-  artifactKey: Guid(58fa148b0f6461140bcb25e8cc8651ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/All Models.unity using Guid(58fa148b0f6461140bcb25e8cc8651ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4142454ed379de12042315d9874c2372') in 0.001741 seconds
-  Import took 0.006314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.766102 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Prefabs/Decor
-  artifactKey: Guid(5bb3198a1a1c01340a718536d93f0a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Prefabs/Decor using Guid(5bb3198a1a1c01340a718536d93f0a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10c32fbdaf5a97b4bf746410053384d') in 0.001235 seconds
-  Import took 0.004968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000624 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Prefabs/Decor
-  artifactKey: Guid(5bb3198a1a1c01340a718536d93f0a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Prefabs/Decor using Guid(5bb3198a1a1c01340a718536d93f0a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10c32fbdaf5a97b4bf746410053384d') in 0.000997 seconds
-  Import took 0.004087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.256587 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Prefabs/Decor/Cloud.prefab
-  artifactKey: Guid(fc8853061531e974a9da302f24691ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Prefabs/Decor/Cloud.prefab using Guid(fc8853061531e974a9da302f24691ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbfbfdee00a266a2d593382bb3d5de6') in 0.008041 seconds
-  Import took 0.011199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016473 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Prefabs/Decor/Cloud.prefab
-  artifactKey: Guid(fc8853061531e974a9da302f24691ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Prefabs/Decor/Cloud.prefab using Guid(fc8853061531e974a9da302f24691ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbfbfdee00a266a2d593382bb3d5de6') in 0.006665 seconds
-  Import took 0.010838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.079938 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Prefabs/Decor/Cloud_0.prefab
-  artifactKey: Guid(0fd741f5f3a343544a41a70798d698c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Prefabs/Decor/Cloud_0.prefab using Guid(0fd741f5f3a343544a41a70798d698c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ec9198ae4a8d14a62f6442e24defe0') in 0.006176 seconds
-  Import took 0.009654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.329995 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Prefabs/Decor/Cloud_1.prefab
-  artifactKey: Guid(5b50aa379032ffb44b9caefc9a440b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Prefabs/Decor/Cloud_1.prefab using Guid(5b50aa379032ffb44b9caefc9a440b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d26bbfcd8f6440991b72787cb30eda') in 0.005354 seconds
-  Import took 0.008670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.217481 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Prefabs/Decor/Cloud_2.prefab
-  artifactKey: Guid(c1c5870236a9bcc4d8d647e1f8ff5002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Prefabs/Decor/Cloud_2.prefab using Guid(c1c5870236a9bcc4d8d647e1f8ff5002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9abeabbfce1b1ace8375fc84e1c07e4') in 0.005434 seconds
-  Import took 0.008762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.173986 seconds.
-  path: Assets/HYPEPOLY - Battle Royale Show/Prefabs/Particles
-  artifactKey: Guid(a5816fb564b63994fa1ea4f6a185686a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HYPEPOLY - Battle Royale Show/Prefabs/Particles using Guid(a5816fb564b63994fa1ea4f6a185686a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94ca300485524f58cb7be353b4f88c5') in 0.001142 seconds
-  Import took 0.004737 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000955 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.629 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.7 MB.
-System memory in use after: 116.8 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2946.
-Total: 2.179600 ms (FindLiveObjects: 0.293800 ms CreateObjectMapping: 0.091300 ms MarkObjects: 1.705500 ms  DeleteObjects: 0.087600 ms)
+  Time since last request: 17.870181 seconds.
+  path: Assets/Scenes/ClearScene.unity
+  artifactKey: Guid(49c41dbbb064ce948967bde9760a9ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ClearScene.unity using Guid(49c41dbbb064ce948967bde9760a9ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c556360949100cd5c952e046633501') in 0.017873 seconds
+  Import took 0.030669 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/HYPEPOLY - Battle Royale Show/Demo/Scenes/Demo Scene 3.unity
+- path: Assets/Scenes/ClearScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

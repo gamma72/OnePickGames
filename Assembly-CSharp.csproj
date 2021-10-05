@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{596D819F-82B9-D7BC-6EE7-BFBDB5AED94A}</ProjectGuid>
+    <ProjectGuid>{DD38AD82-A6B5-F6CE-7D07-2DCDD89D91B1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,38 +60,55 @@
     <Compile Include="Assets\Scripts\1st Map\keyOpen.cs" />
     <Compile Include="Assets\Scripts\2st Map\SpawnPoint.cs" />
     <Compile Include="Assets\Scripts\TileMaps\GenerateMaps.cs" />
+    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDPrefabVariator.cs" />
     <Compile Include="Assets\Scripts\1st Map\PositionReSet.cs" />
     <Compile Include="Assets\Scripts\1st Map\TestGrab.cs" />
+    <Compile Include="Assets\Scenes\3stMap\script\PannelTExt.cs" />
     <Compile Include="Assets\Scripts\2st Map\Enemy.cs" />
     <Compile Include="Assets\Scripts\DonDestroyOnLoad.cs" />
+    <Compile Include="Assets\Scenes\3stMap\script\InstatiateObs.cs" />
+    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDParticlesDestroyer.cs" />
+    <Compile Include="Assets\Scenes\3stMap\script\Scene_Restart.cs" />
     <Compile Include="Assets\Scripts\2st Map\ScreenToPointRay.cs" />
     <Compile Include="Assets\Scripts\2DView\OnControllerHit.cs" />
     <Compile Include="Assets\Scripts\2st Map\Lever.cs" />
     <Compile Include="Assets\Scripts\GameClearManager.cs" />
+    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Demo\Scripts\WNDDisabler.cs" />
+    <Compile Include="Assets\Scenes\3stMap\script\GameOVer.cs" />
     <Compile Include="Assets\Scripts\2DView\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\3stMap\Down\LowPoly Tiles Set\Scripts\movem.cs" />
     <Compile Include="Assets\Scripts\1View\PlayerController1V.cs" />
     <Compile Include="Assets\Scripts\2st Map\Destroy.cs" />
+    <Compile Include="Assets\Scenes\3stMap\script\TimeAttack.cs" />
+    <Compile Include="Assets\Scenes\3stMap\script\PlayerController.cs" />
+    <Compile Include="Assets\Scenes\3stMap\script\PlayerDead.cs" />
     <Compile Include="Assets\Scripts\2st Map\TrapController.cs" />
+    <Compile Include="Assets\Scenes\3stMap\script\MovingObstacle_Rot.cs" />
     <Compile Include="Assets\Scripts\3stMap\Script\TimeAttack.cs" />
+    <Compile Include="Assets\Scenes\3stMap\script\MovingObstacle_Y.cs" />
     <Compile Include="Assets\Scripts\2DView\PlayerController2D.cs" />
+    <Compile Include="Assets\Scenes\3stMap\script\PlayerUIMaker.cs" />
+    <Compile Include="Assets\Scenes\3stMap\script\PortalEscape.cs" />
     <Compile Include="Assets\Scripts\1st Map\BoxBreake.cs" />
     <Compile Include="Assets\Scripts\3stMap\Script\MovingObstacle_X.cs" />
     <Compile Include="Assets\Scripts\1st Map\ColorChange.cs" />
+    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDMoover.cs" />
+    <Compile Include="Assets\Scripts\3stMap\Down\LowPoly Tiles Set\Scripts\sceneManager.cs" />
+    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDParticlesSpawner.cs" />
     <Compile Include="Assets\Scripts\3stMap\Script\PlayerUIMaker.cs" />
+    <Compile Include="Assets\Scripts\3stMap\Down\LowPolyLight(Lite)\Effect\Bloom.cs" />
+    <Compile Include="Assets\Scenes\3stMap\script\Player_ROt.cs" />
     <Compile Include="Assets\Scripts\2st Map\Puzzle.cs" />
     <Compile Include="Assets\Scripts\Key.cs" />
     <Compile Include="Assets\Scripts\3stMap\Script\ItemDestroy.cs" />
+    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDDispenser.cs" />
     <Compile Include="Assets\Scripts\3stMap\Script\MovingObstacle_Rot.cs" />
     <Compile Include="Assets\Scripts\2st Map\Interaction.cs" />
+    <Compile Include="Assets\Scenes\3stMap\script\MovingObstacle_X.cs" />
+    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDRotator.cs" />
     <Compile Include="Assets\Scripts\2st Map\PuzzleEscape.cs" />
     <Compile Include="Assets\Scripts\3stMap\Script\MovingObstacle_Y.cs" />
-    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDParticlesDestroyer.cs" />
-    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDDispenser.cs" />
-    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDRotator.cs" />
-    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Demo\Scripts\WNDDisabler.cs" />
-    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDMoover.cs" />
-    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDParticlesSpawner.cs" />
-    <Compile Include="Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDPrefabVariator.cs" />
+    <Compile Include="Assets\Scenes\3stMap\script\ItemDestroy.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
