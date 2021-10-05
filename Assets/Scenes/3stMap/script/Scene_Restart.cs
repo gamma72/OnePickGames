@@ -25,7 +25,7 @@ public class Scene_Restart : MonoBehaviour
     }
     public void GameClear()
     {
-        SceneManager.LoadScene(1);//Å¬¸®¾î ¾À
+        SceneManager.LoadScene(4);//Å¬¸®¾î ¾À
     }
     public void Quit()
     {
